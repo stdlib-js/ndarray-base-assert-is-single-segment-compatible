@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/ndarray-base-assert-is-single-segment-compatible",
+  "version": "0.0.0",
+  "description": "Determine if an array is compatible with a single memory segment.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-assert-is-single-segment-compatible.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "strides",
+    "contiguous",
+    "compatibility",
+    "compatible",
+    "segment",
+    "test",
+    "assert",
+    "check",
+    "validate",
+    "validation",
+    "valid",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
