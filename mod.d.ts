@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,16 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
 
 /**
-* Return a boolean indicating if an array is compatible with a single memory segment.
+* Returns a boolean indicating if an array is compatible with a single memory segment.
 *
-* @module @stdlib/ndarray-base-assert-is-single-segment-compatible
+* @param shape - array shape
+* @param strides - stride array
+* @param offset - index offset
+* @returns boolean indicating if an array is compatible with a single memory segment
 *
 * @example
-* var isSingleSegmentCompatible = require( '@stdlib/ndarray-base-assert-is-single-segment-compatible' );
-*
 * var shape = [ 2, 2 ];
 * var strides = [ 2, 1 ];
 * var offset = 0;
@@ -34,8 +39,6 @@
 * // returns true
 *
 * @example
-* var isSingleSegmentCompatible = require( '@stdlib/ndarray-base-assert-is-single-segment-compatible' );
-*
 * var shape = [ 10 ];
 * var strides = [ 3 ];
 * var offset = 0;
@@ -43,12 +46,9 @@
 * var bool = isSingleSegmentCompatible( shape, strides, offset );
 * // returns false
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isSingleSegmentCompatible( shape: ArrayLike<number>, strides: ArrayLike<number>, offset: number ): boolean; // tslint-disable-line max-line-length
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isSingleSegmentCompatible;
