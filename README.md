@@ -54,7 +54,7 @@ An array is compatible with a single memory segment when an array view spans **o
 ## Usage
 
 ```javascript
-import isSingleSegmentCompatible from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-single-segment-compatible@deno/mod.js';
+import isSingleSegmentCompatible from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-single-segment-compatible@v0.2.1-deno/mod.js';
 ```
 
 #### isSingleSegmentCompatible( shape, strides, offset )
@@ -102,7 +102,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import isSingleSegmentCompatible from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-single-segment-compatible@deno/mod.js';
+import isSingleSegmentCompatible from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-single-segment-compatible@v0.2.1-deno/mod.js';
 
 var strides;
 var offset;
