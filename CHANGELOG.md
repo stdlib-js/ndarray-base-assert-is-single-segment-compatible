@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-09-29)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8156](https://github.com/stdlib-js/stdlib/issues/8156)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,8 @@
 
 <details>
 
+-   [`29d3bbb`](https://github.com/stdlib-js/stdlib/commit/29d3bbb5241884d149b000c3a76d59227686728f) - **chore:** fix C lint errors [(#8157)](https://github.com/stdlib-js/stdlib/pull/8157) _(by GeoDaoyu, Athan Reines)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
 </details>
@@ -24,9 +38,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   GeoDaoyu
+-   Philipp Burckhardt
 
 </section>
 
