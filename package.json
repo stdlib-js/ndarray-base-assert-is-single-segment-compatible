@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-single-segment-compatible",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Determine if an array is compatible with a single memory segment.",
   "license": "Apache-2.0",
   "author": {
@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-bytes-per-element": "^0.3.0",
-    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.2",
-    "@stdlib/ndarray-base-numel": "^0.2.2",
+    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.3",
+    "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/ndarray-dtypes": "^0.4.0",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
